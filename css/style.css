@@ -1,0 +1,155 @@
+:root {
+    --main-color-green: #10645A;
+    --main-color-hover-green: #0d4a43;
+    --main-color-purple: #50186A;
+    --main-color-hover-purple: #250a31;
+}
+
+body {
+    font-family: 'Montserrat', Times, serif;
+}
+
+.h1-ff {
+    font-family: 'Tenor Sans';
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.link-color:hover {
+    color: var(--main-color-hover-green) !important;
+}
+
+.link-color:active {
+    color: var(--main-color-hover-purple) !important;
+}
+
+.link-img:hover {
+    background-color: var(--main-color-hover-green) !important;
+}
+
+.img-svg svg:hover {
+    color: white;
+}
+
+.link-img:active {
+    background-color: var(--main-color-hover-purple) !important;
+}
+
+.min-h-inherit {
+    min-height: inherit;
+}
+
+.img-sign:hover {
+    background-color: silver;
+    transition: background-color 0.5s ease-in-out 0.3s, transform 0.5s;
+}
+
+.main-btn:hover {
+    color: #fff !important;
+}
+
+.img-hero {
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.bg-first-product {
+    background-color: var(--main-color-green);
+}
+
+.img-hero-1 {
+    margin-top: -250px;
+    overflow: hidden;
+}
+
+.bg-second-product {
+    background-color: var(--main-color-purple);
+}
+
+.link-img-1:hover {
+    background-color: var(--main-color-hover-green) !important;
+    border-color: var(--main-color-hover-green) !important;
+}
+
+.link-img-1:active {
+    background-color: var(--main-color-hover-purple) !important;
+    border-color: var(--main-color-hover-purple) !important;
+}
+
+.link-a-dark:hover {
+    color: var(--main-color-hover-green) !important;
+}
+
+.link-a-dark:active {
+    color: var(--main-color-green) !important;
+}
+
+.contact-block {
+    max-width: 700px;
+}
+
+.card {
+    max-width: 19rem;
+}
+
+.joker {
+    max-width: 19rem;
+}
+
+.footer-link {
+    font-size: small;
+}
+
+.w-45 {
+    width: 160px;
+}
+
+.body-collection {
+    background-image: url(../image/футер\ 1.png);
+}
+
+.collection-img {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.btn-color {
+    background-color: var(--main-color-purple);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn-color:hover {
+    background-color: var(--main-color-hover-purple);
+}
+
+.btn-color:active {
+    border: 3px solid var(--main-color-green) !important;
+    background-color: var(--main-color-purple) !important;
+}
+
+.btn-color-green {
+    background-color: var(--main-color-green);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn-color-green:hover {
+    background-color: var(--main-color-hover-green);
+}
+
+.btn-color-green:active {
+    border: 3px solid var(--main-color-purple) !important;
+    background-color: var(--main-color-green) !important;
+}
+
+.btn-size {
+    width: 35px;
+    padding: 3px 0px !important;
+}
